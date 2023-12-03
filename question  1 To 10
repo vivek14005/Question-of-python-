@@ -1,0 +1,63 @@
+#1 
+animals=['zebra','tiger','lion','jackal','kangaroo']
+for index,a in enumerate(animals):
+    print(index,a)
+#2
+#Q comparison=compare of two lists.Comparison is done item by till there is a mismatch.In the following code it would be decided that a is less than b when 3 and 5 are compared
+a=[1, 2, 6]
+b=[1, 2, 5]
+print(a<b)
+output=True
+
+#3
+# Q reversal is also possible using a slicing operation as shown below
+lst=[10, 2, 0, 50, 4]
+print(lst[::-1])
+output=[4, 50, 0, 2, 10]
+
+#4 
+# Q it is possible to unpack a string or list within a list using the '*' operator
+s='hello'
+l=[*s]
+print(l)
+output=['h', 'e', 'l', 'l', 'o']
+
+#5 
+#Q create a list of 5 name
+name=['Anil', 'Amol', 'Aditya', 'Aditya', 'Avi', 'Alka']
+print(name)
+
+#6
+# Q insert a name 'Anuj' before 'Aditya'
+name=name=['Anil', 'Amol', 'Aditya', 'Aditya', 'Avi', 'Alka']
+name.insert(2,'Anuj')
+print(name)
+
+#7
+#Q append a name 'Zulu'
+name=['Anil', 'Amol', 'Aditya', 'Aditya', 'Avi', 'Alka']
+name.append('Zulu')
+print(name)
+
+#8 
+#Q delete 'Avi' from the list
+name=['Anil', 'Amol', 'Aditya', 'Aditya', 'Avi', 'Alka']
+name.remove('Avi')
+print(name)
+
+#9 
+#Q create a list of 5 odd number
+a=[1, 3, 5, 7, 9]
+print(a)
+
+#10
+#Q combine the two lists
+a=[2, 4, 6, 8, 10]
+b=[1, 3, 5, 7, 9]
+c=a+b
+print(c)
+
+
+
+
+
